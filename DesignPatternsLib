@@ -1,0 +1,34 @@
+DesignPatternsLib/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── __init__.py
+│   ├── creational/
+│   │   ├── __init__.py
+│   │   └── singleton.py
+│   ├── structural/
+│   │   ├── __init__.py
+│   │   └── adapter.py
+│   ├── behavioral/
+│   │   ├── __init__.py
+│   │   └── observer.py
+├── examples/
+│   ├── singleton_example.py
+│   ├── adapter_example.py
+│   └── observer_example.py
+├── tests/
+│   ├── __init__.py
+│   ├── creational/
+│   │   └── test_singleton.py
+│   ├── structural/
+│   │   └── test_adapter.py
+│   ├── behavioral/
+│   │   └── test_observer.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── setup.py
